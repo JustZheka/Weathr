@@ -14,6 +14,6 @@ Weather JsonService::getWeather(std::string s)
     double temperature = j["main"]["temp"]; // 5.69
     std::string weather = j["weather"][0]["description"]; // дождь
     double windSpeed = j["wind"]["speed"]; // 4.27
-    int clouds = j["clouds"]["all"]; // 100
+    int clouds = j["clouds"]["all"]; // 100 
     return Weather(city, lon, lat, temperature, weather, windSpeed, clouds);
 }
