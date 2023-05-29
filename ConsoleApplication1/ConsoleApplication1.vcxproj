@@ -142,11 +142,18 @@
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="JsonService.cpp" />
     <ClCompile Include="Weather.cpp" />
+    <ClCompile Include="XmlService.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="JsonService.h" />
     <ClInclude Include="Weather.h" />
     <ClInclude Include="WeatherService.h" />
+    <ClInclude Include="XmlService.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="pugixml-1.13\scripts\pugixml_vs2019.vcxproj">
+      <Project>{07cf01c0-b887-499d-ad9c-799cb6a9fe64}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
