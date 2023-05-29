@@ -140,6 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="JsonService.cpp" />
+    <ClCompile Include="Weather.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JsonService.h" />
+    <ClInclude Include="Weather.h" />
+    <ClInclude Include="WeatherService.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
